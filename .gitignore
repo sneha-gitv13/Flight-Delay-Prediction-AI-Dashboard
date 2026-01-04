@@ -1,0 +1,25 @@
+﻿# Large files and folders
+archive/
+*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
