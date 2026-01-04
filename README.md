@@ -36,19 +36,27 @@ The Tableau dashboard provides comprehensive insights into:
 
 ---
 
-## 🗂️ Repository Structure
+## 📁 Repository Structure
 
-\\\
+\\\plaintext
+Flight-Delay-Prediction-AI-Dashboard/
+│
 ├── images/
-│   └── dashboard.jpg                       # Tableau dashboard visualization
-├── Flight_Status_Prediction.ipynb          # Jupyter notebook with full ML pipeline
-├── flight_status_prediction.py             # Python script for predictions
-├── flight_delay_model.pkl                  # Trained Random Forest model (8.06 MB)
-├── airline_encoder.pkl                     # Label encoder for airline data
-├── Flight Delay Prediction & AI Risk Analysis Dashboard.pbit  # Power BI template
-├── Flight Delay Prediction & AI Risk Analysis Dashboard.pdf   # Dashboard export
-├── requirements.txt                        # Python dependencies
-└── .gitignore                              # Excludes large datasets
+│   └── dashboard.jpg                    # Tableau dashboard visualization
+│
+├── Flight_Status_Prediction.ipynb       # Jupyter notebook with full ML pipeline
+├── flight_status_prediction.py          # Python script for predictions
+├── flight_delay_model.pkl               # Trained Random Forest model (8.06 MB)
+├── airline_encoder.pkl                  # Label encoder for airline data
+│
+├── Flight Delay Prediction & AI Risk Analysis Dashboard.pbit
+│                                        # Power BI template
+├── Flight Delay Prediction & AI Risk Analysis Dashboard.pdf
+│                                        # Dashboard export
+│
+├── requirements.txt                     # Python dependencies
+├── README.md                            # Project documentation
+└── .gitignore                           # Excludes large datasets
 \\\
 
 ---
@@ -138,6 +146,19 @@ The Tableau dashboard provides comprehensive insights into:
 | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) | Development environment |
 
 </div>
+
+---
+
+## 📊 Project Files Description
+
+| File | Description | Size |
+|------|-------------|------|
+| \light_delay_model.pkl\ | Trained Random Forest classifier | 8.06 MB |
+| \irline_encoder.pkl\ | Label encoder for preprocessing | 636 bytes |
+| \Flight_Status_Prediction.ipynb\ | Complete ML pipeline with EDA | 120 KB |
+| \light_status_prediction.py\ | Production-ready prediction script | 9 KB |
+| \dashboard.pbit\ | Interactive Power BI template | 16 KB |
+| \dashboard.pdf\ | Static dashboard export | 207 KB |
 
 ---
 
