@@ -37,8 +37,7 @@ The Tableau dashboard provides comprehensive insights into:
 ---
 
 ## 📁 Repository Structure
-
-\\\plaintext
+```
 Flight-Delay-Prediction-AI-Dashboard/
 │
 ├── images/
@@ -57,7 +56,7 @@ Flight-Delay-Prediction-AI-Dashboard/
 ├── requirements.txt                     # Python dependencies
 ├── README.md                            # Project documentation
 └── .gitignore                           # Excludes large datasets
-\\\
+```
 
 ---
 
@@ -71,25 +70,25 @@ Flight-Delay-Prediction-AI-Dashboard/
 ### Installation
 
 1. **Clone the repository:**
-   \\\ash
+```bash
    git clone https://github.com/sneha-gitv13/Flight-Delay-Prediction-AI-Dashboard.git
    cd Flight-Delay-Prediction-AI-Dashboard
-   \\\
+```
 
 2. **Install dependencies:**
-   \\\ash
+```bash
    pip install -r requirements.txt
-   \\\
+```
 
 3. **Run the prediction script:**
-   \\\ash
+```bash
    python flight_status_prediction.py
-   \\\
+```
 
 4. **Open the Jupyter Notebook:**
-   \\\ash
+```bash
    jupyter notebook Flight_Status_Prediction.ipynb
-   \\\
+```
 
 ---
 
@@ -153,18 +152,18 @@ Flight-Delay-Prediction-AI-Dashboard/
 
 | File | Description | Size |
 |------|-------------|------|
-| \light_delay_model.pkl\ | Trained Random Forest classifier | 8.06 MB |
-| \irline_encoder.pkl\ | Label encoder for preprocessing | 636 bytes |
-| \Flight_Status_Prediction.ipynb\ | Complete ML pipeline with EDA | 120 KB |
-| \light_status_prediction.py\ | Production-ready prediction script | 9 KB |
-| \dashboard.pbit\ | Interactive Power BI template | 16 KB |
-| \dashboard.pdf\ | Static dashboard export | 207 KB |
+| `flight_delay_model.pkl` | Trained Random Forest classifier | 8.06 MB |
+| `airline_encoder.pkl` | Label encoder for preprocessing | 636 bytes |
+| `Flight_Status_Prediction.ipynb` | Complete ML pipeline with EDA | 120 KB |
+| `flight_status_prediction.py` | Production-ready prediction script | 9 KB |
+| `dashboard.pbit` | Interactive Power BI template | 16 KB |
+| `dashboard.pdf` | Static dashboard export | 207 KB |
 
 ---
 
 ## 📁 Dataset
 
-The training dataset is **not included** in this repository due to size constraints (excluded via \.gitignore\). 
+The training dataset is **not included** in this repository due to size constraints (excluded via `.gitignore`). 
 
 To use your own data:
 1. Prepare a CSV with flight features:
@@ -192,9 +191,9 @@ Add your model metrics here:
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
-2. Create your feature branch (\git checkout -b feature/AmazingFeature\)
-3. Commit your changes (\git commit -m 'Add some AmazingFeature'\)
-4. Push to the branch (\git push origin feature/AmazingFeature\)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ---
